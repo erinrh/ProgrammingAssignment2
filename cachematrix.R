@@ -1,7 +1,6 @@
-## This pair of function facilities cashcing the inverse of a matrix. Retreiving
-## the inverse from a cache, if it has previouslt been calculated, saves times
+## This pair of function facilities caching the inverse of a matrix. Retreiving
+## the inverse from a cache, if it has previously been calculated, saves time.
 ## the matrix supplied must always be invertible.
-
 ##Example
 ## mat <- matrix(1:4, nrow = 2, ncol = 2)
 ## > cmat <- makeCacheMatrix(mat)
